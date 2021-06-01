@@ -1,0 +1,8 @@
+While trying to push code files from a local repo to a Github repo,keep in mind:
+1. The two repos should not already have files with commits done on both ends. This way Git won't 
+   recognise the file pattern and would throw an error while pushing/pulling.
+2. Ideally, the local repo should not be made first. We should first create a Github repo and upload 
+   the code files to the Github repo.Then clone this repo to as a local repo on PC and pull its contents.
+   Now Git will be aware of the pattern of files since we have uploaded files at Gihub and cloned the same
+   files on our local system. Now we can create/add files to our local repo and push them comfortable to
+   Github without issues.
